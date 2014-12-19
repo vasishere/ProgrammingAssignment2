@@ -1,8 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
 makeCacheMatrix <- function(x = matrix()) {
 
 ## This function creates a special matrix object that can cache inverse
@@ -21,8 +16,6 @@ list(set=set, get=get,
    getmatrix=getmatrix)
 }
 
-
-## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
 
